@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+body {
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	size: 16px;
+	color: #fff;
+	background: #fff;
+}
+
+.header {
+	margin-top: 45px;
+	height: 215px;
+}
+
+.logo {
+	width: 340px;
+	height: 55px;
+	background: url(../img/logo.png) no-repeat;
+	z-index: 2;
+}
+	
+.text h1 {
+	font-size: 75px;
+	}
+	
+.text p {
+	font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
